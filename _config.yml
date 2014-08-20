@@ -1,0 +1,10 @@
+# Site settings
+title: Overyonder IT Solutions
+email: overyonderstudios@gmail.com
+description: "We're currently under construction! Drop us an email in the meantime."
+baseurl: ""
+url: "http://overyonderstudios.com"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
