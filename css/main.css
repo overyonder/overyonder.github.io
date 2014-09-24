@@ -9,7 +9,8 @@
 html, body { height: 100%; }
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  /* Times New Roman-based stack */
+  font-family: Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 300;
@@ -41,7 +42,7 @@ a:visited { color: #205caa; }
 /* Site header */
 
 .site-header {
-  border-top: 5px solid #333;
+  border-top: 25px solid #333;
   border-bottom: 1px solid #e8e8e8;
   min-height: 56px;
   background-color: white;
@@ -91,10 +92,10 @@ a:visited { color: #205caa; }
 
 .footer-col-1 {
   width: 270px; /*fallback*/
-  width: -webkit-calc(35% - 10px);
-  width: -moz-calc(35% - 10px);
-  width: -o-calc(35% - 10px);
-  width: calc(35% - 10px);
+  width: -webkit-calc(30% - 10px);
+  width: -moz-calc(30% - 10px);
+  width: -o-calc(30% - 10px);
+  width: calc(30% - 10px);
   margin-right: 10px
 }
 .footer-col-2 {
@@ -107,10 +108,10 @@ a:visited { color: #205caa; }
 }
 .footer-col-3 {
   width: 335px; /*fallback*/
-  width: -webkit-calc(41.875%);
-  width: -moz-calc(41.875%);
-  width: -o-calc(41.875%);
-  width: calc(41.875%);
+  width: -webkit-calc(46.875%);
+  width: -moz-calc(46.875%);
+  width: -o-calc(46.875%);
+  width: calc(46.875%);
 }
 
 .site-footer ul { list-style: none; }
@@ -224,6 +225,16 @@ a:visited { color: #205caa; }
 
 .post-content ul,
 .post-content ol { padding-left: 20px; }
+
+/* For References */
+.post-content h2+ol { 
+  font-size: 12px;
+}
+
+.post-content h2+ol li { 
+  margin-bottom: 5px;
+}
+/* ------------- */
 
 .post pre,
 .post code {
