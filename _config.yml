@@ -1,7 +1,7 @@
 # Site settings
 title: Overyonder IT Solutions
 email: kai@kai.systems
-description: "This is a small IT business run by Kieran Hannigan. Drop me an email with any queries!"
+description: "This is a small IT business run by Kieran Hannigan. <br> Drop me an email with any queries!"
 baseurl: ""
 url: "http://oys.kai.systems"
 
