@@ -1,9 +1,9 @@
 # Site settings
 title: Overyonder IT Solutions
-email: director@overyonderstudios.com
-description: "We're currently under construction! Drop us an email in the meantime."
+email: kai@kai.systems
+description: "This is a small IT business run by Kieran Hannigan. Drop me an email with any queries!"
 baseurl: ""
-url: "http://overyonderstudios.com"
+url: "http://oys.kai.systems"
 
 # Build settings
 markdown: kramdown
